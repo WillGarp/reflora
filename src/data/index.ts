@@ -47,3 +47,12 @@ export const forestProducts = [
   { category: "Bioestimulante", products: "Quantis", text: "Fertilizante líquido orgânico para aplicações foliares, enraizamento, estabelecimento e redução de estresses." },
   { category: "Indutor de resistência", products: "Bion 500 WG", text: "Ativador preventivo dos mecanismos naturais de defesa das plantas contra doenças bacterianas." },
 ];
+
+// Adicione isso no final do arquivo src/data/index.ts
+export const partners = [
+  { name: "Hospital Pequeno Príncipe", type: "Saúde" },
+  { name: "Construtora Hafil", type: "Construção Civil" },
+  { name: "Bidese Incorporadora", type: "Incorporação" },
+  { name: "Escola Umbrella", type: "Educação" },
+  { name: "Grupo Bom Jesus", type: "Educação" }
+];

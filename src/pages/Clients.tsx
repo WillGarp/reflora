@@ -1,6 +1,7 @@
 import { ChevronRight } from "lucide-react";
+import { motion } from "framer-motion";
 import { PageIntro } from "../components/PageIntro";
-import { clients } from "../data";
+import { clients, partners } from "../data";
 import { goTo } from "../utils/navigation";
 
 export function Clients() {
@@ -8,6 +9,32 @@ export function Clients() {
     <>
       <PageIntro eyebrow="Clientes e parceiros" title="Uma solução para cada realidade ambiental." text="Atendemos organizações que precisam de diagnóstico técnico, planejamento ambiental e apoio para tomar decisões com mais segurança e conformidade." />
       <section className="content-section">
+        
+        {/* Nova Seção Interativa de Clientes Reais */}
+        <div className="partners-section" style={{ borderTop: "none", paddingTop: 0, marginTop: 0, marginBottom: "100px" }}>
+          <span className="eyebrow">Marcas que confiam na Reflora</span>
+          <h2>Nossos parceiros em destaque.</h2>
+          
+          <div className="partners-grid">
+            {partners.map((partner, index) => (
+              <motion.div
+                key={partner.name}
+                className="partner-card"
+                // Animação de entrada (Surgindo de baixo pra cima em cascata)
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                // Animação de interação (Aumentando levemente com o mouse)
+                whileHover={{ scale: 1.05 }}
+              >
+                <span>{partner.type}</span>
+                <h3>{partner.name}</h3>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+
         <div className="client-grid">
           {clients.map(({ icon: Icon, ...client }) => (
             <article className="client-card" key={client.title}>
@@ -21,6 +48,7 @@ export function Clients() {
             </article>
           ))}
         </div>
+        
         <div className="audience-grid">
           <article>
             <span className="eyebrow">Setor público</span>

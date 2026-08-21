@@ -8,3 +8,13 @@
 .audience-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 90px; }.audience-grid article { padding: 30px; background: #dce9d8; }.audience-grid h2 { font-size: 25px; line-height: 1.1; }.audience-grid p { color: #657770; line-height: 1.65; }
 .risk-intro { max-width: 760px; }.scenario-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 48px; }.scenario-grid article { padding: 28px; border: 1px solid #dfe7dc; }.scenario-grid span { color: #c86b45; font: 700 11px 'DM Sans'; letter-spacing: .14em; text-transform: uppercase; }.scenario-grid p { color: #657770; line-height: 1.6; }.report-panel { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-top: 70px; padding: 42px; background: #dce9d8; }.report-panel h2 { font-size: clamp(28px, 3vw, 42px); }.report-panel > strong { color: #1d5141; font: 700 18px 'Space Grotesk'; white-space: nowrap; }
 @media (max-width: 800px) { .fire-section, .fire-overview { grid-template-columns: 1fr; }.audience-grid, .scenario-grid, .portfolio-grid, .forest-grid { grid-template-columns: 1fr; }.pill-grid, .plan-steps { grid-template-columns: 1fr; }.plan-steps h3 { margin-top: 25px; }.risk-levels { grid-template-columns: 1fr; }.report-panel { display: block; }.report-panel > strong { display: block; margin-top: 24px; } }
+.partners-section { margin-top: 100px; padding-top: 70px; border-top: 1px solid #dfe7dc; }
+.partners-grid { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 40px; }
+.partner-card { flex: 1 1 200px; padding: 35px 24px; background: #f5f7f1; border: 1px solid #dfe7dc; text-align: center; cursor: default; transition: background-color 0.3s, border-color 0.3s; }
+.partner-card span { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; color: #799187; margin-bottom: 12px; font-weight: 700; transition: color 0.3s; }
+.partner-card h3 { font-size: 22px; color: #1d5141; margin: 0; transition: color 0.3s; }
+
+/* Efeito interativo de Hover */
+.partner-card:hover { background-color: #1d5141; border-color: #1d5141; }
+.partner-card:hover span { color: #e4a27f; }
+.partner-card:hover h3 { color: #ffffff; }
