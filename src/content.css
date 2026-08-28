@@ -14,6 +14,11 @@
 .partner-card span { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; color: #799187; margin-bottom: 12px; font-weight: 700; transition: color 0.3s; }
 .partner-card h3 { font-size: 22px; color: #1d5141; margin: 0; transition: color 0.3s; }
 
+.partner-logo { max-width: 120px; height: auto; margin: 0 auto 12px; display: block; }
+
+/* Utility for screen-reader-only text (visually hidden but accessible) */
+.sr-only { position: absolute !important; width: 1px !important; height: 1px !important; padding: 0 !important; margin: -1px !important; overflow: hidden !important; clip: rect(0 0 0 0) !important; white-space: nowrap !important; border: 0 !important; }
+
 /* Efeito interativo de Hover */
 .partner-card:hover { background-color: #1d5141; border-color: #1d5141; }
 .partner-card:hover span { color: #e4a27f; }

@@ -29,8 +29,11 @@ export function Clients() {
                 // Animação de interação (Aumentando levemente com o mouse)
                 whileHover={{ scale: 1.05 }}
               >
-                <span>{partner.type}</span>
-                <h3>{partner.name}</h3>
+                {partner.logo && (
+                  <img src={partner.logo} alt={partner.name} className="partner-logo" />
+                )}
+                <span className="sr-only">{partner.type}</span>
+                <h3 className="sr-only">{partner.name}</h3>
               </motion.div>
             ))}
           </div>

@@ -40,19 +40,19 @@ export const fireServices = [
 ];
 
 export const forestProducts = [
-  { category: "Herbicidas", products: "Touchdown e Sequence", text: "Soluções para dessecação e controle de plantas daninhas na linha e entrelinha de plantações de eucalipto e pinus." },
-  { category: "Fungicidas", products: "Priori Top e Priori Xtra", text: "Proteção preventiva e curativa para doenças como ferrugem e oídio em cultivos de eucalipto." },
-  { category: "Inseticidas", products: "Actara e Match", text: "Manejo de pragas como cupins, vespa-da-galha e lagartas, com orientação conforme cultura, dose e modalidade." },
-  { category: "Adjuvantes", products: "Agral e Ochima", text: "Produtos que ajudam no espalhamento, na distribuição e na absorção das caldas aplicadas." },
-  { category: "Bioestimulante", products: "Quantis", text: "Fertilizante líquido orgânico para aplicações foliares, enraizamento, estabelecimento e redução de estresses." },
+  { category: "Herbicidas", products: "Herbicidas (genéricos)", text: "Produtos para dessecação e controle de plantas daninhas; a escolha depende da cultura, estágio de desenvolvimento e condicionantes ambientais." },
+  { category: "Fungicidas", products: "Fungicidas (genéricos)", text: "Produtos para proteção preventiva e curativa contra doenças foliares e sistêmicas; aplicação conforme diagnóstico técnico e recomendações agronômicas." },
+  { category: "Inseticidas", products: "Inseticidas (genéricos)", text: "Produtos para o controle de insetos-praga; uso técnico deve considerar espécie alvo, modo de ação e orientações de dose." },
+  { category: "Adjuvantes", products: "Adjuvantes (genéricos)", text: "Aditivos e coadjuvantes que melhoram a eficiência da calda, espalhamento e absorção nas aplicações." },
+  { category: "Bioestimulante", products: "Bioestimulantes (genéricos)", text: "Produtos para promover estabelecimento, vigor e resistência a estresses abióticos; recomenda-se avaliação técnica prévia." },
   { category: "Indutor de resistência", products: "Bion 500 WG", text: "Ativador preventivo dos mecanismos naturais de defesa das plantas contra doenças bacterianas." },
 ];
 
 // Adicione isso no final do arquivo src/data/index.ts
 export const partners = [
-  { name: "Hospital Pequeno Príncipe", type: "Saúde" },
-  { name: "Construtora Hafil", type: "Construção Civil" },
-  { name: "Bidese Incorporadora", type: "Incorporação" },
-  { name: "Escola Umbrella", type: "Educação" },
-  { name: "Grupo Bom Jesus", type: "Educação" }
+  { name: "Hospital Pequeno Príncipe", type: "Saúde", logo: "/images/logo/pequeno%20principe.png" },
+  { name: "Construtora Hafil", type: "Construção Civil", logo: "/images/logo/grupo_hafil_logo.jpg" },
+  { name: "Bidese Incorporadora", type: "Incorporação", logo: "/images/logo/bidese.png" },
+  { name: "Escola Umbrella", type: "Educação", logo: "/images/logo/umbrella_logo.png" },
+  { name: "Grupo Bom Jesus", type: "Educação", logo: "/images/logo/images.png" }
 ];
