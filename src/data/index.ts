@@ -50,9 +50,9 @@ export const forestProducts = [
 
 // Adicione isso no final do arquivo src/data/index.ts
 export const partners = [
-  { name: "Hospital Pequeno Príncipe", type: "Saúde", logo: "/images/logo/pequeno%20principe.png" },
-  { name: "Construtora Hafil", type: "Construção Civil", logo: "/images/logo/grupo_hafil_logo.jpg" },
+  { name: "Hospital Pequeno Príncipe", type: "Saúde", logo: "/images/logo/hospital_pequeno_principe.png" },
+  { name: "Construtora Hafil", type: "Construção Civil", logo: "/images/logo/grupo_hafil_logo.png" },
   { name: "Bidese Incorporadora", type: "Incorporação", logo: "/images/logo/bidese.png" },
   { name: "Escola Umbrella", type: "Educação", logo: "/images/logo/umbrella_logo.png" },
-  { name: "Grupo Bom Jesus", type: "Educação", logo: "/images/logo/images.png" }
+  { name: "Grupo Bom Jesus", type: "Educação", logo: "/images/logo/grupo_bom_jesus.png" }
 ];
