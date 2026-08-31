@@ -40,12 +40,12 @@ export const fireServices = [
 ];
 
 export const forestProducts = [
-  { category: "Herbicidas", products: "Herbicidas (genéricos)", text: "Produtos para dessecação e controle de plantas daninhas; a escolha depende da cultura, estágio de desenvolvimento e condicionantes ambientais." },
-  { category: "Fungicidas", products: "Fungicidas (genéricos)", text: "Produtos para proteção preventiva e curativa contra doenças foliares e sistêmicas; aplicação conforme diagnóstico técnico e recomendações agronômicas." },
-  { category: "Inseticidas", products: "Inseticidas (genéricos)", text: "Produtos para o controle de insetos-praga; uso técnico deve considerar espécie alvo, modo de ação e orientações de dose." },
-  { category: "Adjuvantes", products: "Adjuvantes (genéricos)", text: "Aditivos e coadjuvantes que melhoram a eficiência da calda, espalhamento e absorção nas aplicações." },
-  { category: "Bioestimulante", products: "Bioestimulantes (genéricos)", text: "Produtos para promover estabelecimento, vigor e resistência a estresses abióticos; recomenda-se avaliação técnica prévia." },
-  { category: "Indutor de resistência", products: "Bion 500 WG", text: "Ativador preventivo dos mecanismos naturais de defesa das plantas contra doenças bacterianas." },
+  { category: "Herbicidas", products: "Manejo de plantas daninhas", text: "Produtos para dessecação e controle de plantas daninhas; a escolha depende da cultura, estágio de desenvolvimento e condicionantes ambientais." },
+  { category: "Fungicidas", products: "Proteção fitossanitária", text: "Produtos para proteção preventiva e curativa contra doenças foliares e sistêmicas; aplicação conforme diagnóstico técnico e recomendações agronômicas." },
+  { category: "Inseticidas", products: "Controle de pragas", text: "Produtos para o controle de insetos-praga; uso técnico deve considerar espécie alvo, modo de ação e orientações de dose." },
+  { category: "Adjuvantes", products: "Otimização de caldas", text: "Aditivos e coadjuvantes que melhoram a eficiência da calda, espalhamento e absorção nas aplicações." },
+  { category: "Bioestimulante", products: "Estímulo ao vigor", text: "Produtos para promover estabelecimento, vigor e resistência a estresses abióticos; recomenda-se avaliação técnica prévia." },
+  { category: "Indutor de resistência", products: "Ativação de defesa natural", text: "Ativador preventivo dos mecanismos naturais de defesa das plantas contra agentes fitopatogênicos." },
 ];
 
 // Adicione isso no final do arquivo src/data/index.ts

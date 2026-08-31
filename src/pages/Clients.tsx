@@ -30,7 +30,9 @@ export function Clients() {
                 whileHover={{ scale: 1.05 }}
               >
                 {partner.logo && (
-                  <img src={partner.logo} alt={partner.name} className="partner-logo" />
+                  <div className="partner-logo-container">
+                    <img src={partner.logo} alt={partner.name} className="partner-logo" />
+                  </div>
                 )}
                 <span className="sr-only">{partner.type}</span>
                 <h3 className="sr-only">{partner.name}</h3>
