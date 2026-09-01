@@ -48,7 +48,6 @@ export const forestProducts = [
   { category: "Indutor de resistência", products: "Ativação de defesa natural", text: "Ativador preventivo dos mecanismos naturais de defesa das plantas contra agentes fitopatogênicos." },
 ];
 
-// Adicione isso no final do arquivo src/data/index.ts
 export const partners = [
   { name: "Hospital Pequeno Príncipe", type: "Saúde", logo: "/images/logo/hospital_pequeno_principe.png" },
   { name: "Construtora Hafil", type: "Construção Civil", logo: "/images/logo/grupo_hafil_logo.png" },

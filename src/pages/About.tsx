@@ -12,9 +12,9 @@ export function About() {
         <div className="about-copy">
           <span className="eyebrow">Nossa forma de trabalhar</span>
           <h2>Conhecimento aplicado ao território.</h2>
-          <p>Desde 1990, atuamos nos setores público e privado com gestão ambiental, infraestrutura rodoviária e portuária, licenciamento, planejamento, arborização urbana e recuperação ambiental.</p>
+          <p>Desde 2001, atuamos nos setores público e privado com gestão ambiental, infraestrutura rodoviária e portuária, licenciamento, planejamento, arborização urbana e recuperação ambiental.</p>
           <ul>
-            {["Formação: Engenharia Florestal pela UFPR e especializações relevantes", "Experiência acumulada desde 1990 nos setores público e privado", "Atuação: gestão ambiental, infraestrutura, licenciamento, planejamento e recuperação", "Especialidade histórica: arborização urbana e manejo de árvores em Curitiba", "Representação: participação em entidades profissionais e ambientais"].map((item) => (
+            {["Formação: Engenharia Florestal pela UFPR em 1990 e especializações relevantes", "Experiência acumulada desde 2001 nos setores público e privado", "Atuação: gestão ambiental, infraestrutura, licenciamento, planejamento e recuperação", "Especialidade histórica: arborização urbana e manejo de árvores em Curitiba", "Representação: participação em entidades profissionais e ambientais"].map((item) => (
               <li key={item}><Check size={18} />{item}</li>
             ))}
           </ul>
@@ -24,8 +24,8 @@ export function About() {
       <section className="content-section">
         <div className="risk-intro">
           <span className="eyebrow">Direção técnica</span>
-          <h2>Uma trajetória construída em campo.</h2>
-          <p className="section-copy">O Engenheiro Florestal Marco Aurélio Busch Ziliotto, CREA 23402/D, dirige tecnicamente a Reflora, reunindo experiência histórica em arborização urbana e manejo de árvores em Curitiba com atuação em grandes projetos ambientais.</p>
+          <h2>Uma trajetória construída em field.</h2>
+          <p className="section-copy">O Engenheiro Florestal Marco Aurélio Busch Ziliotto formado em 1990 pela UFPR, CREA 23402/D, dirige tecnicamente a Reflora, reunindo experiência histórica em arborização urbana e manejo de árvores em Curitiba com atuação em grandes projetos ambientais.</p>
         </div>
         <div className="scenario-grid">
           {[
