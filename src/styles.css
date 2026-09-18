@@ -954,3 +954,97 @@ footer {
     margin-top: 60px;
   }
 }
+
+/* =========================================
+   DIA DA ÁRVORE
+========================================= */
+
+.dia-arvore-section {
+  width: 100%;
+  padding: 90px 6%;
+  background: #f3f5ef;
+}
+
+.dia-arvore-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.dia-arvore-heading {
+  max-width: 720px;
+  margin-bottom: 32px;
+}
+
+.dia-arvore-heading .eyebrow {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.dia-arvore-heading h2 {
+  margin: 0;
+  font-size: clamp(36px, 4vw, 58px);
+  line-height: 1.05;
+  font-weight: 500;
+  color: #12382c;
+}
+
+.dia-arvore-heading p {
+  max-width: 620px;
+  margin: 18px 0 0;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #52635c;
+}
+
+.dia-arvore-card {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow:
+    0 8px 24px rgba(15, 48, 36, 0.06),
+    0 30px 70px rgba(15, 48, 36, 0.08);
+}
+
+.dia-arvore-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Responsividade */
+
+@media (max-width: 900px) {
+  .dia-arvore-section {
+    padding: 65px 5%;
+  }
+
+  .dia-arvore-heading {
+    margin-bottom: 24px;
+  }
+
+  .dia-arvore-heading h2 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 600px) {
+  .dia-arvore-section {
+    padding: 50px 20px;
+  }
+
+  .dia-arvore-heading h2 {
+    font-size: 34px;
+  }
+
+  .dia-arvore-heading p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .dia-arvore-card {
+    border-radius: 10px;
+  }
+}

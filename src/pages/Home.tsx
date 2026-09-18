@@ -9,27 +9,55 @@ export function Home() {
     <>
       <section className="hero">
         <div className="hero-image" />
+
         <div className="hero-content">
-          <span className="eyebrow light">REFLORA | Engenharia Florestal e Ambiental</span>
-          <h1>Engenharia Florestal e Ambiental para decisões técnicas seguras.</h1>
-          <p>Soluções especializadas em arborização urbana, avaliação de risco de árvores, licenciamento e estudos ambientais, restauração, manejo florestal, prevenção de incêndios, carbono e projetos ambientais, sob direção técnica do Engenheiro Florestal Marco Aurélio Busch Ziliotto.</p>
+          <span className="eyebrow light">
+            REFLORA | Engenharia Florestal e Ambiental
+          </span>
+
+          <h1>
+            Engenharia Florestal e Ambiental para decisões técnicas seguras.
+          </h1>
+
+          <p>
+            Soluções especializadas em arborização urbana, avaliação de risco de
+            árvores, licenciamento e estudos ambientais, restauração, manejo
+            florestal, prevenção de incêndios, carbono e projetos ambientais, sob
+            direção técnica do Engenheiro Florestal Marco Aurélio Busch Ziliotto.
+          </p>
+
           <div className="hero-actions">
-            <Button onClick={() => goTo("servicos")}>Conheça nossos serviços</Button>
-            <Button secondary onClick={() => goTo("contato")}>Fale com a equipe</Button>
+            <Button onClick={() => goTo("servicos")}>
+              Conheça nossos serviços
+            </Button>
+
+            <Button secondary onClick={() => goTo("contato")}>
+              Fale com a equipe
+            </Button>
           </div>
         </div>
+
         <div className="hero-note">
           <span>01</span>
-          <p>Experiência técnica<br /><strong>para decidir com segurança.</strong></p>
+
+          <p>
+            Experiência técnica
+            <br />
+            <strong>para decidir com segurança.</strong>
+          </p>
         </div>
       </section>
 
       <section className="institutional-section">
         <div className="institutional-grid">
-
           <div className="institutional-text">
-            <span className="eyebrow">Apresentação institucional</span>
-            <h2>Engenharia aplicada às necessidades de cada projeto.</h2>
+            <span className="eyebrow">
+              Apresentação institucional
+            </span>
+
+            <h2>
+              Engenharia aplicada às necessidades de cada projeto.
+            </h2>
 
             <div className="institutional-content">
               <p>
@@ -67,7 +95,9 @@ export function Home() {
                 Podcast
               </span>
 
-              <span className="podcast-number">02</span>
+              <span className="podcast-number">
+                02
+              </span>
             </div>
 
             <div className="podcast-card-content">
@@ -75,7 +105,9 @@ export function Home() {
                 <Play size={24} fill="currentColor" />
               </div>
 
-              <span className="eyebrow">Reflora em destaque</span>
+              <span className="eyebrow">
+                Reflora em destaque
+              </span>
 
               <h3>
                 Conheça mais sobre nossa atuação e experiência profissional.
@@ -92,31 +124,109 @@ export function Home() {
               </span>
             </div>
           </a>
-
         </div>
       </section>
-      
+
+      {/* DIA DA ÁRVORE */}
+      <section className="dia-arvore-section">
+        <div className="dia-arvore-container">
+          <div className="dia-arvore-heading">
+            <span className="eyebrow">
+              21 de Setembro
+            </span>
+
+            <h2>
+              Dia da Árvore
+            </h2>
+
+            <p>
+              Uma homenagem à natureza e ao papel das árvores na construção
+              de cidades, paisagens e territórios mais sustentáveis.
+            </p>
+          </div>
+
+          <div className="dia-arvore-card">
+            <img
+              src="images/dia-da-arvore.png"
+              alt="Campanha Dia da Árvore - Reflora"
+              className="dia-arvore-image"
+            />
+          </div>
+        </div>
+      </section>
+
       <section className="quick-section">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">Visão geral</span>
-            <h2>Conhecimento para decisões complexas.</h2>
+            <span className="eyebrow">
+              Visão geral
+            </span>
+
+            <h2>
+              Conhecimento para decisões complexas.
+            </h2>
           </div>
-          <button className="text-link" onClick={() => goTo("sobre")}>
-            Conheça a Reflora <ChevronRight size={16} />
+
+          <button
+            className="text-link"
+            onClick={() => goTo("sobre")}
+          >
+            Conheça a Reflora
+            <ChevronRight size={16} />
           </button>
         </div>
+
         <div className="quick-grid">
           <article className="feature-panel">
-            <div className="feature-number">01</div>
-            <h3>Experiência que sustenta nosso trabalho</h3>
-            <p>Sob direção técnica do Engenheiro Florestal Marco Aurélio Busch Ziliotto, transformamos diagnóstico e planejamento em soluções tecnicamente fundamentadas.</p>
-            <Button onClick={() => goTo("servicos")}>Ver serviços</Button>
+            <div className="feature-number">
+              01
+            </div>
+
+            <h3>
+              Experiência que sustenta nosso trabalho
+            </h3>
+
+            <p>
+              Sob direção técnica do Engenheiro Florestal Marco Aurélio Busch
+              Ziliotto, transformamos diagnóstico e planejamento em soluções
+              tecnicamente fundamentadas.
+            </p>
+
+            <Button onClick={() => goTo("servicos")}>
+              Ver serviços
+            </Button>
           </article>
+
           <div className="stat-list">
-            <div><strong>Desde 2001</strong><span>experiência nos setores público e privado</span></div>
-            <div><strong>4 áreas</strong><span>de atuação especializada</span></div>
-            <div><strong>1 propósito</strong><span>orientar decisões ambientais seguras</span></div>
+            <div>
+              <strong>
+                Desde 2001
+              </strong>
+
+              <span>
+                experiência nos setores público e privado
+              </span>
+            </div>
+
+            <div>
+              <strong>
+                4 áreas
+              </strong>
+
+              <span>
+                de atuação especializada
+              </span>
+            </div>
+
+            <div>
+              <strong>
+                1 propósito
+              </strong>
+
+              <span>
+                orientar decisões ambientais seguras
+              </span>
+            </div>
           </div>
         </div>
       </section>
@@ -124,27 +234,53 @@ export function Home() {
       <section className="service-preview">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">Atuação</span>
-            <h2>Especialidades da Reflora.</h2>
+            <span className="eyebrow">
+              Atuação
+            </span>
+
+            <h2>
+              Especialidades da Reflora.
+            </h2>
           </div>
-          <button className="text-link" onClick={() => goTo("servicos")}>
-            Todos os serviços <ChevronRight size={16} />
+
+          <button
+            className="text-link"
+            onClick={() => goTo("servicos")}
+          >
+            Todos os serviços
+            <ChevronRight size={16} />
           </button>
         </div>
+
         <div className="service-grid">
           {services.slice(0, 3).map((service) => (
-            <ServiceCard key={service.title} {...service} />
+            <ServiceCard
+              key={service.title}
+              {...service}
+            />
           ))}
         </div>
       </section>
 
       <section className="home-callout">
         <div>
-          <span className="eyebrow light">Próximo passo</span>
-          <h2>Precisa orientar uma decisão ambiental?</h2>
-          <p>Conte sobre seu desafio. A Reflora ajuda a diagnosticar o problema e definir o escopo técnico adequado.</p>
+          <span className="eyebrow light">
+            Próximo passo
+          </span>
+
+          <h2>
+            Precisa orientar uma decisão ambiental?
+          </h2>
+
+          <p>
+            Conte sobre seu desafio. A Reflora ajuda a diagnosticar o problema e
+            definir o escopo técnico adequado.
+          </p>
         </div>
-        <Button onClick={() => goTo("contato")}>Iniciar conversa</Button>
+
+        <Button onClick={() => goTo("contato")}>
+          Iniciar conversa
+        </Button>
       </section>
     </>
   );
