@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Reflora favicon">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1d5141"/>
+      <stop offset="100%" stop-color="#c86b45"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#f5f7f1"/>
+  <path d="M18 34c9-15 20-20 29-21-2 13-9 24-25 31 0-3-2-7-4-10Zm11 5c6-3 13-10 16-18-9 2-15 9-18 18h2Z" fill="url(#g)"/>
+  <path d="M32 14c-4 9-5 18-2 28 6-4 11-10 12-18-4-4-7-7-10-10Z" fill="#e8f0bf" opacity=".9"/>
+</svg>
