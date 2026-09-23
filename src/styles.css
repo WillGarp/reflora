@@ -369,65 +369,86 @@ h3 {
 
 .service-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
   align-items: stretch;
+  margin-top: 28px;
 }
 
 .service-grid.full {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .service-card {
-  min-height: 260px;
-  padding: 22px 0 18px;
+  min-height: 310px;
+  padding: 26px 28px 24px;
   position: relative;
-  background: transparent;
-  border: none;
-  transition: opacity .2s ease;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid #e3e7df;
+  border-left: 3px solid #e7a07a;
+  border-radius: 0;
+  transition: transform .2s ease, border-color .2s ease, background-color .2s ease, box-shadow .2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: none;
+}
+
+.service-card:nth-child(odd) {
+  border-color: #e3a27a;
+  border-left-width: 3px;
 }
 
 .service-card:hover {
-  transform: none;
-  border-color: transparent;
-  box-shadow: none;
+  transform: translateY(-2px);
+  border-color: #d97b4d;
+  background: #f5f7f1;
+  box-shadow: 0 12px 24px rgba(18, 47, 39, 0.06);
 }
 
 .icon-box {
   display: grid;
   place-items: center;
-  width: 44px;
-  height: 44px;
-  background: transparent;
-  color: #c86b45;
-  margin-bottom: 18px;
+  width: 54px;
+  height: 54px;
+  background: rgba(29, 81, 65, 0.08);
+  color: #1d5141;
+  margin-bottom: 32px;
+  border-radius: 0;
 }
 
 .service-card h3 {
-  font-size: 20px;
-  line-height: 1.2;
-  max-width: 280px;
+  font-size: clamp(26px, 2vw, 36px);
+  line-height: 1.12;
+  max-width: 380px;
   color: #183b2d;
   margin: 0;
+  letter-spacing: -0.04em;
 }
 
 .service-card p {
-  font-size: 15px;
-  line-height: 1.6;
-  max-width: 330px;
+  font-size: 16px;
+  line-height: 1.55;
+  max-width: 460px;
   color: #4b5f57;
-  margin-top: 10px;
+  margin-top: 18px;
+  margin-bottom: 0;
 }
 
 .card-arrow {
   position: absolute;
-  right: 0;
-  bottom: 6px;
+  right: 24px;
+  bottom: 22px;
   width: auto;
   height: auto;
   display: inline-flex;
-  color: #c86b45;
+  color: #d9794d;
   background: transparent;
+  opacity: 1;
+}
+
+.service-card svg {
+  stroke-width: 1.8;
 }
 
 
