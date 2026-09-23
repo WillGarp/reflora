@@ -128,13 +128,18 @@ export function Home() {
       </section>
 
       <section className="manual-section">
-        <div className="manual-cover-wrap">
+        <a
+          className="manual-cover-wrap"
+          href="images/manual-completo.png"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src="images/manual.jpeg"
             alt="Capa do Manual Técnico para Avaliação de Risco de Árvores Urbanas, do Método MARAU"
             className="manual-cover"
           />
-        </div>
+        </a>
 
         <div className="manual-content">
           <span className="eyebrow light">
