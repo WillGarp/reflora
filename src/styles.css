@@ -369,26 +369,28 @@ h3 {
 
 .service-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 18px;
+  align-items: stretch;
 }
 
 .service-grid.full {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .service-card {
-  min-height: 270px;
-  border: 1px solid #e0e9df;
-  padding: 28px;
+  min-height: 260px;
+  padding: 22px 0 18px;
   position: relative;
-  background: #fff;
-  transition: transform .2s, border-color .2s;
+  background: transparent;
+  border: none;
+  transition: opacity .2s ease;
 }
 
 .service-card:hover {
-  transform: translateY(-4px);
-  border-color: #c86b45;
+  transform: none;
+  border-color: transparent;
+  box-shadow: none;
 }
 
 .icon-box {
@@ -396,26 +398,36 @@ h3 {
   place-items: center;
   width: 44px;
   height: 44px;
-  background: #e7f0e2;
-  color: #1d5141;
-  margin-bottom: 28px;
+  background: transparent;
+  color: #c86b45;
+  margin-bottom: 18px;
 }
 
 .service-card h3 {
-  font-size: 21px;
+  font-size: 20px;
+  line-height: 1.2;
   max-width: 280px;
+  color: #183b2d;
+  margin: 0;
 }
 
 .service-card p {
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 1.6;
   max-width: 330px;
+  color: #4b5f57;
+  margin-top: 10px;
 }
 
 .card-arrow {
   position: absolute;
-  right: 28px;
-  bottom: 28px;
+  right: 0;
+  bottom: 6px;
+  width: auto;
+  height: auto;
+  display: inline-flex;
   color: #c86b45;
+  background: transparent;
 }
 
 
@@ -423,20 +435,29 @@ h3 {
    6. PÁGINAS INTERNAS E METODOLOGIA
    ========================================= */
 .page-intro {
-  background: #dce9d8;
-  padding: 110px max(8vw, 28px) 95px;
+  background: #f2f2ee;
+  padding: 72px max(8vw, 28px) 26px;
+}
+
+.page-intro .eyebrow {
+  color: #c86b45;
+  margin-bottom: 18px;
 }
 
 .page-intro h1 {
-  max-width: 850px;
+  max-width: 920px;
+  color: #183b2d;
+  font-size: clamp(30px, 4vw, 62px);
+  letter-spacing: -0.04em;
+  line-height: 0.98;
 }
 
 .page-intro p {
-  max-width: 640px;
-  color: #62766c;
-  font-size: 18px;
-  line-height: 1.6;
-  margin: 24px 0 0;
+  max-width: 880px;
+  color: #495c57;
+  font-size: 19px;
+  line-height: 1.5;
+  margin: 20px 0 0;
 }
 
 .content-section {
@@ -452,10 +473,16 @@ h3 {
   border-top: 1px solid #dfe7dc;
 }
 
+.method-steps {
+  display: grid;
+  gap: 0;
+}
+
 .method-steps div {
   display: flex;
   align-items: center;
   gap: 25px;
+  min-height: 86px;
   padding: 18px 0;
   border-bottom: 1px solid #dfe7dc;
 }
