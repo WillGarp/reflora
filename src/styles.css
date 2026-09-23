@@ -199,7 +199,7 @@ h3 {
 .hero-image {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(13, 43, 34, .88) 15%, rgba(13, 43, 34, .58) 55%, rgba(13, 43, 34, .2)), url('/images/cta-tree.jpg') center/cover;
+  background: linear-gradient(90deg, rgba(13, 43, 34, .88) 15%, rgba(13, 43, 34, .58) 55%, rgba(13, 43, 34, .2)), url('/reflora/images/cta-tree.jpg') center/cover;
 }
 
 .hero-content {
@@ -521,7 +521,7 @@ h3 {
 
 .about-image {
   min-height: 550px;
-  background: url('/images/interactive-tree.jpg') center/cover;
+  background: url('/reflora/images/interactive-tree.jpg') center/cover;
 }
 
 .about-copy h2 {

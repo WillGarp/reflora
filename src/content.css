@@ -24,10 +24,10 @@
 .partner-card:hover span { color: #e4a27f; }
 .partner-card:hover h3 { color: #ffffff; }
 
-.hero-image { background-image: linear-gradient(90deg, rgba(13,43,34,.88) 15%, rgba(13,43,34,.58) 55%, rgba(13,43,34,.2)), url('/images/cta-tree.jpg'); }
-.about-image { background-image: url('/images/interactive-tree.jpg'); }
-.partners-section { padding: 70px 32px; background: linear-gradient(90deg, rgba(18,47,39,.9), rgba(18,47,39,.58)), url('/images/herp-arborizacao.jpg') center/cover; border-top: 0; color: white; }
+.hero-image { background-image: linear-gradient(90deg, rgba(13,43,34,.88) 15%, rgba(13,43,34,.58) 55%, rgba(13,43,34,.2)), url('/reflora/images/cta-tree.jpg'); }
+.about-image { background-image: url('/reflora/images/interactive-tree.jpg'); }
+.partners-section { padding: 70px 32px; background: linear-gradient(90deg, rgba(18,47,39,.9), rgba(18,47,39,.58)), url('/reflora/images/herp-arborizacao.jpg') center/cover; border-top: 0; color: white; }
 .partners-section h2 { color: white; }
 .partners-section .section-copy { color: #dbe7df; }
-.audience-grid article:nth-child(3) { background: linear-gradient(120deg, rgba(18,47,39,.82), rgba(18,47,39,.38)), url('/images/school-tree.jpg') center/cover; color: white; }
+.audience-grid article:nth-child(3) { background: linear-gradient(120deg, rgba(18,47,39,.82), rgba(18,47,39,.38)), url('/reflora/images/school-tree.jpg') center/cover; color: white; }
 .audience-grid article:nth-child(3) p { color: #e1eee5; }
