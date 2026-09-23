@@ -370,7 +370,7 @@ h3 {
 .service-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 22px;
+  gap: 18px;
   align-items: stretch;
   margin-top: 28px;
 }
@@ -380,30 +380,18 @@ h3 {
 }
 
 .service-card {
-  min-height: 310px;
-  padding: 26px 28px 24px;
+  min-height: 270px;
+  padding: 28px;
   position: relative;
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid #e3e7df;
-  border-left: 3px solid #e7a07a;
-  border-radius: 0;
-  transition: transform .2s ease, border-color .2s ease, background-color .2s ease, box-shadow .2s ease;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  background: #fff;
+  border: 1px solid #e0e9df;
+  transition: transform .2s ease, border-color .2s ease;
   box-shadow: none;
 }
 
-.service-card:nth-child(odd) {
-  border-color: #e3a27a;
-  border-left-width: 3px;
-}
-
 .service-card:hover {
-  transform: translateY(-2px);
-  border-color: #d97b4d;
-  background: #f5f7f1;
-  box-shadow: 0 12px 24px rgba(18, 47, 39, 0.06);
+  transform: translateY(-4px);
+  border-color: #c86b45;
 }
 
 .icon-box {
@@ -413,14 +401,13 @@ h3 {
   height: 54px;
   background: rgba(29, 81, 65, 0.08);
   color: #1d5141;
-  margin-bottom: 32px;
-  border-radius: 0;
+  margin-bottom: 26px;
 }
 
 .service-card h3 {
-  font-size: clamp(26px, 2vw, 36px);
+  font-size: clamp(28px, 2vw, 36px);
   line-height: 1.12;
-  max-width: 380px;
+  max-width: 400px;
   color: #183b2d;
   margin: 0;
   letter-spacing: -0.04em;
@@ -428,23 +415,22 @@ h3 {
 
 .service-card p {
   font-size: 16px;
-  line-height: 1.55;
-  max-width: 460px;
+  line-height: 1.6;
+  max-width: 470px;
   color: #4b5f57;
-  margin-top: 18px;
+  margin-top: 16px;
   margin-bottom: 0;
 }
 
 .card-arrow {
   position: absolute;
-  right: 24px;
-  bottom: 22px;
+  right: 28px;
+  bottom: 24px;
   width: auto;
   height: auto;
   display: inline-flex;
-  color: #d9794d;
+  color: #c86b45;
   background: transparent;
-  opacity: 1;
 }
 
 .service-card svg {
@@ -456,29 +442,34 @@ h3 {
    6. PÁGINAS INTERNAS E METODOLOGIA
    ========================================= */
 .page-intro {
-  background: #f2f2ee;
-  padding: 72px max(8vw, 28px) 26px;
+  background: #dce9d8;
+  padding: 110px max(8vw, 28px) 95px;
 }
 
 .page-intro .eyebrow {
   color: #c86b45;
   margin-bottom: 18px;
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
 }
 
 .page-intro h1 {
-  max-width: 920px;
+  max-width: 980px;
   color: #183b2d;
-  font-size: clamp(30px, 4vw, 62px);
-  letter-spacing: -0.04em;
-  line-height: 0.98;
+  font-size: clamp(48px, 5vw, 96px);
+  letter-spacing: -0.06em;
+  line-height: 0.93;
 }
 
 .page-intro p {
-  max-width: 880px;
-  color: #495c57;
-  font-size: 19px;
-  line-height: 1.5;
-  margin: 20px 0 0;
+  max-width: 760px;
+  color: #1f3a33;
+  font-size: 22px;
+  line-height: 1.45;
+  margin: 28px 0 0;
 }
 
 .content-section {
