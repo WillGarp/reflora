@@ -127,6 +127,47 @@ export function Home() {
         </div>
       </section>
 
+      <section className="manual-section">
+        <div className="manual-cover-wrap">
+          <img
+            src="/images/manual.jpeg"
+            alt="Capa do Manual Técnico para Avaliação de Risco de Árvores Urbanas, do Método MARAU"
+            className="manual-cover"
+          />
+        </div>
+
+        <div className="manual-content">
+          <span className="eyebrow light">
+            Método MARAU | Conteúdo técnico Reflora
+          </span>
+
+          <h2>
+            Conheça o Método MARAU.
+          </h2>
+
+          <p>
+            O material apresenta uma metodologia para identificar, avaliar,
+            classificar e gerenciar riscos em árvores urbanas, apoiando decisões
+            técnicas mais seguras para pessoas, patrimônio e cidades.
+          </p>
+
+          <div className="manual-actions">
+            <Button onClick={() => goTo("contato")}>
+              Falar sobre o método
+            </Button>
+
+            <a
+              className="manual-download"
+              href="/images/manual-completo.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Abrir material completo
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* DIA DA ÁRVORE */}
       <section className="dia-arvore-section">
         <div className="dia-arvore-container">

@@ -937,6 +937,98 @@ footer {
   font-weight: 600;
 }
 
+/* Manual técnico */
+
+.manual-section {
+  display: grid;
+  grid-template-columns: minmax(250px, 0.72fr) minmax(0, 1.28fr);
+  align-items: center;
+  gap: clamp(42px, 8vw, 110px);
+  padding: 92px 10%;
+  background: #12382c;
+  color: white;
+}
+
+.manual-cover-wrap {
+  justify-self: center;
+  width: min(100%, 310px);
+  box-shadow: 18px 22px 0 rgba(228, 162, 127, 0.9), 0 28px 45px rgba(0, 0, 0, 0.24);
+  transform: rotate(-2deg);
+}
+
+.manual-cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.manual-cover-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 28px 22px;
+  background: linear-gradient(155deg, #f4f6ee 0 68%, #d9e8d5 68%);
+  color: #12382c;
+  text-align: center;
+}
+
+.manual-cover-fallback span {
+  font: 700 13px 'Space Grotesk', sans-serif;
+  letter-spacing: .16em;
+}
+
+.manual-cover-fallback strong {
+  font: 700 clamp(18px, 2.1vw, 24px) 'Space Grotesk', sans-serif;
+  line-height: 1.08;
+}
+
+.manual-cover-fallback small {
+  font-size: 10px;
+  line-height: 1.35;
+}
+
+.manual-content {
+  max-width: 650px;
+}
+
+.manual-content h2 {
+  max-width: 620px;
+  font-size: clamp(34px, 4.5vw, 60px);
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+}
+
+.manual-content p {
+  max-width: 540px;
+  margin: 24px 0 32px;
+  color: #c9ded2;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.manual-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.manual-download {
+  color: #f0c2a9;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.manual-download:hover {
+  color: white;
+}
+
 
 /* Responsivo */
 
@@ -952,6 +1044,12 @@ footer {
 
   .podcast-card-content {
     margin-top: 60px;
+  }
+
+  .manual-section {
+    grid-template-columns: minmax(210px, 0.7fr) minmax(0, 1.3fr);
+    padding: 72px 6%;
+    gap: 48px;
   }
 }
 
@@ -1031,6 +1129,21 @@ footer {
 }
 
 @media (max-width: 600px) {
+  .manual-section {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    padding: 68px 20px 76px;
+  }
+
+  .manual-cover-wrap {
+    width: min(72vw, 280px);
+    box-shadow: 12px 16px 0 rgba(228, 162, 127, 0.9), 0 22px 34px rgba(0, 0, 0, 0.22);
+  }
+
+  .manual-content h2 {
+    font-size: 36px;
+  }
+
   .dia-arvore-section {
     padding: 50px 20px;
   }

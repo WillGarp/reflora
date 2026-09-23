@@ -8,8 +8,13 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default defineConfig({
-  base: process.env.GITHUB_ACTIONS ? "/reflora/" : "./",
+  base: process.env.GITHUB_ACTIONS ? "/reflora/" : "/",
   plugins: [react(), tailwindcss()],
+  server: {
+    watch: {
+      ignored: ["**/*.pdf"],
+    },
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
