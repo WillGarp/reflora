@@ -130,7 +130,7 @@ export function Home() {
       <section className="manual-section">
         <div className="manual-cover-wrap">
           <img
-            src="/reflora/images/manual.jpeg"
+            src="images/manual.jpeg"
             alt="Capa do Manual Técnico para Avaliação de Risco de Árvores Urbanas, do Método MARAU"
             className="manual-cover"
           />
@@ -158,9 +158,10 @@ export function Home() {
 
             <a
               className="manual-download"
-              href="/reflora/images/manual.pdf"
+              href="images/manual-completo.png"
               target="_blank"
               rel="noopener noreferrer"
+              download
             >
               Abrir material completo
             </a>

@@ -49,9 +49,9 @@ export const forestProducts = [
 ];
 
 export const partners = [
-  { name: "Hospital Pequeno Príncipe", type: "Saúde", logo: "/reflora/images/logo/hospital_pequeno_principe.png" },
-  { name: "Construtora Hafil", type: "Construção Civil", logo: "/reflora/images/logo/grupo_hafil_logo.png" },
-  { name: "Bidese Incorporadora", type: "Incorporação", logo: "/reflora/images/logo/bidese.png" },
-  { name: "Escola Umbrella", type: "Educação", logo: "/reflora/images/logo/umbrella_logo.png" },
-  { name: "Grupo Bom Jesus", type: "Educação", logo: "/reflora/images/logo/grupo_bom_jesus.png" }
+  { name: "Hospital Pequeno Príncipe", type: "Saúde", logo: "images/logo/hospital_pequeno_principe.png" },
+  { name: "Construtora Hafil", type: "Construção Civil", logo: "images/logo/grupo_hafil_logo.png" },
+  { name: "Bidese Incorporadora", type: "Incorporação", logo: "images/logo/bidese.png" },
+  { name: "Escola Umbrella", type: "Educação", logo: "images/logo/umbrella_logo.png" },
+  { name: "Grupo Bom Jesus", type: "Educação", logo: "images/logo/grupo_bom_jesus.png" }
 ];
