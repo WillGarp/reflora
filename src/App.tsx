@@ -20,8 +20,13 @@ export default function App() {
   
   useEffect(() => {
     const update = () => setPage(pageFromHash());
+    update();
     window.addEventListener("hashchange", update);
-    return () => window.removeEventListener("hashchange", update);
+    window.addEventListener("popstate", update);
+    return () => {
+      window.removeEventListener("hashchange", update);
+      window.removeEventListener("popstate", update);
+    };
   }, []);
 
   const renderPage = () => {
