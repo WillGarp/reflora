@@ -161,7 +161,6 @@ export function Home() {
               href="images/manual-completo.png"
               target="_blank"
               rel="noopener noreferrer"
-              download
             >
               Abrir material completo
             </a>
