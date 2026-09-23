@@ -369,7 +369,7 @@ h3 {
 
 .service-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 18px;
   align-items: stretch;
   margin-top: 28px;
@@ -405,7 +405,7 @@ h3 {
 }
 
 .service-card h3 {
-  font-size: clamp(28px, 2vw, 36px);
+  font-size: clamp(20px, 2vw, 21px);
   line-height: 1.12;
   max-width: 400px;
   color: #183b2d;
@@ -443,7 +443,7 @@ h3 {
    ========================================= */
 .page-intro {
   background: #dce9d8;
-  padding: 110px max(8vw, 28px) 95px;
+  padding: 100px max(8vw, 28px) 95px;
 }
 
 .page-intro .eyebrow {
@@ -459,7 +459,7 @@ h3 {
 .page-intro h1 {
   max-width: 980px;
   color: #183b2d;
-  font-size: clamp(48px, 5vw, 96px);
+  font-size: clamp(48px, 5vw, 56px);
   letter-spacing: -0.06em;
   line-height: 0.93;
 }
