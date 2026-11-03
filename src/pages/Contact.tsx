@@ -50,7 +50,7 @@ export function Contact() {
           <span className="eyebrow light">Canais diretos</span>
           <h2>Experiência para o seu próximo projeto.</h2>
           <a href="tel:+5541999917280"><Phone size={19} />(41) 99991-7280</a>
-          <a href="mailto:contato@reflora.eng.br"><Mail size={19} />contato@reflora.eng.br</a>
+          <a href="mailto:marcoziliotto@uol.com.br"><Mail size={19} />marcoziliotto@uol.com.br</a>
           <p>Atendimento técnico para poder público, empresas, empreendimentos, escolas, condomínios e propriedades.</p>
         </div>
         
